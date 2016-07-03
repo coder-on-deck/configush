@@ -24,11 +24,11 @@ exports.init = function (/* opts */) {
   if (configFile) {
     configFile = path.resolve(configFile)
     if (!fs.existsSync(configFile)) {
-      log.warn('[simple-config] : file ' + configFile + ' does not exist')
+      log.warn('[configush] : file ' + configFile + ' does not exist')
     }
-    log.debug('[simple-config] : using debug file ' + configFile)
+    log.debug('[configush] : using debug file ' + configFile)
   } else {
-    log.debug('[simple-config] : no config file specified')
+    log.debug('[configush] : no config file specified')
   }
 
   exports.configFile = configFile

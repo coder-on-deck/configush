@@ -1,5 +1,5 @@
 {
-  "name": "simple-config",
+  "name": "configush",
   "verison": "0.0.0",
   "dependencies": {
     "loglevel": "^1.4.1",

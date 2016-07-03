@@ -1,4 +1,4 @@
-simple-config
+configush
 ===============
 
 A simple library that helps you find your configuration file
@@ -7,7 +7,7 @@ A simple library that helps you find your configuration file
 
 
 ```
-npm install -S simple-config
+npm install -S configush
 ```
 
 
@@ -16,13 +16,13 @@ npm install -S simple-config
 ugly one-liner.. :)
 
 ```
-var config = require( require('simple-config').init().configFile )
+var config = require( require('configush').init().configFile )
 ```
 
 more verbose
 
 ```
-var simpleConfig = require('simple-config')
+var simpleConfig = require('configush')
 simpleConfig.init()
 var config = require(simpleConfig.configFile) // in case your configuration file is JSON
 ```
