@@ -15,7 +15,7 @@ npm install -S configush
 ugly one-liner.. :)
 
 ```
-var config = require( require('configush').init().configFile )
+var config = require('configush').get()
 ```
 
 more verbose
