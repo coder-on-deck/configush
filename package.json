@@ -8,6 +8,7 @@
   "author": {
     "name": "Coder On Deck <coder.on.deck@gmail.com>"
   },
+  "license" : "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/coder-on-deck/configush"
