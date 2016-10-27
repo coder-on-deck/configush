@@ -34,3 +34,7 @@ exports.init = function (/* opts */) {
   exports.configFile = configFile
   return exports
 }
+
+exports.get = function () {
+  return require(exports.init().configFile)
+}
