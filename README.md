@@ -1,7 +1,6 @@
-configush
-===============
+# configush
 
-A simple library that helps you find your configuration file
+> A simple library that helps you find your configuration file
 
 # Installation
 
