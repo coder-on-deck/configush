@@ -1,6 +1,6 @@
 {
   "name": "configush",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "dependencies": {
     "find-all-up": "0.0.1",
     "loglevel": "^1.4.1",
