@@ -45,6 +45,14 @@ node index.js
 Relative paths will be resolve relative to cwd
 Absolute paths work too
 
+# Multiple configuration files
 
+```
+const Configush = require('configush')
+Configush.squash({
+  cwd: '..',
+  filename: 'project-config-filename'
+})
+```
 
-
+Returns a merged object of all configurations from cwd and up matching the filename

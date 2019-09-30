@@ -2,8 +2,10 @@
   "name": "configush",
   "version": "0.0.3",
   "dependencies": {
+    "find-all-up": "0.0.1",
     "loglevel": "^1.4.1",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "yamljs": "^0.3.0"
   },
   "author": {
     "name": "Coder On Deck <coder.on.deck@gmail.com>"
@@ -15,8 +17,8 @@
   },
   "scripts": {
     "standard": "standard --fix",
-    "test": "ava && standard",
-    "ava": "ava --watch"
+    "test": "ava tests && standard",
+    "ava": "ava tests --watch"
   },
   "devDependencies": {
     "ava": "^0.16.0",

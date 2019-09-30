@@ -1,0 +1,3 @@
+echo:
+  description: echos stuff
+  command: echo hello

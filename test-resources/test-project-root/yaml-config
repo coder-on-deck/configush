@@ -1,0 +1,4 @@
+default:
+   value: some default entry
+echo:
+   description: you should not see it

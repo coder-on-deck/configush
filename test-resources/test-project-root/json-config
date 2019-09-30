@@ -1,0 +1,6 @@
+{
+  "person": {
+    "name": "default name"
+  },
+  "default": "some default content"
+}
